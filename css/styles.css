@@ -15,8 +15,9 @@ body {
 .logoScs{
   width: 50px;
 }
-.imgBoot {
+.imgBoot, .imgCreator, .imgTchPrf {
   width: 100%;
+  object-fit: cover;
 }
 .imgLogo,
 .menuIcon {
@@ -27,11 +28,6 @@ body {
 }
 .banner {
   display: block;
-}
-
-.imgCreator {
-  width: 250px;
-  object-fit: cover;
 }
 
 /* Nav */
@@ -119,8 +115,8 @@ main{
   border: 1px solid #8b5cf6;
   display: flex;
   flex-direction: column;
-  width: 25rem;
-  margin: 1rem auto;
+  width: 18rem;
+  margin: 2rem auto;
 }
 .cardBootcamp:hover {
   border: 1px solid #4c1d95;
@@ -156,7 +152,7 @@ main{
 /* Card Youtube*/
 
 .cardYoutube {
-  width: 26rem;
+  width: 18rem;
   margin: 1rem auto;
   height: 220px;
   padding: 0 1rem;
@@ -214,21 +210,18 @@ main{
   display: flex;
   flex-direction: row;
   border: 1px solid #A970FF;
-  width: 26rem;
+  width: 18rem;
   margin: 1rem auto;
   padding: 0 1rem;
   border-radius: 15px;
 }
 
-.imgTchPrf{
-  width: 100%;
-}
-
 .imgTch{
   width: 60%;
   display: flex;
-  padding: 1% 2%;
+  align-items: center;
 }
+
 .infoProfileTwi{
   margin: auto 0;
 }
