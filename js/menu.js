@@ -8,6 +8,7 @@ window.addEventListener('mousedown', hideMenu);
 
 function showMenu() {
     menuHamb.classList.toggle("showMenu");
+    console.log("Hola");
 }
 
 function hideMenu(e) {
