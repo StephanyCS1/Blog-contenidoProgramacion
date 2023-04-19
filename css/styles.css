@@ -73,10 +73,14 @@ a {
 .menuhidden {
   background-color: #8a5cf6;
   display: none;
-  padding: 0.2rem;
+  padding: 0.3rem;
   flex-direction: column;
   position: absolute;
   top: 3rem;
+}
+
+.link{
+  padding: 0.2rem;
 }
 
 .showMenu{
@@ -146,6 +150,7 @@ main{
 }
 
 .network {
+  padding: 0 1rem;
   display: flex;
   justify-content: flex-start;
   gap: 2%;
@@ -265,7 +270,7 @@ main{
   }
   .link{
     display: block;
-    padding: 0 1rem;
+    padding: 0 1rem  ;
   }
   .menu{
     display: flex;
